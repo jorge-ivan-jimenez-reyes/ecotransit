@@ -1,18 +1,15 @@
-//
-//  EnvironmentData.swift
-//  Ecotransit
-//
-//  Created by Jorge Ivan JImenez Reyes on 18/04/24.
-//
+import Foundation
 
-import SwiftUI
-
-struct EnvironmentData: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct EnvironmentData: Codable, Identifiable {
+    var id: UUID
+    var airQualityIndex: Int
+    var noiseLevel: Double // Decibeles
+    var temperature: Double // Celsius
 }
 
-#Preview {
-    EnvironmentData()
+extension EnvironmentData {
+    // Ejemplo de datos ambientales.
+    static var example: EnvironmentData {
+        EnvironmentData(id: UUID(), airQualityIndex: 50, noiseLevel: 70.0, temperature: 22.5)
+    }
 }

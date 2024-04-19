@@ -1,18 +1,15 @@
-//
-//  User.swift
-//  Ecotransit
-//
-//  Created by Jorge Ivan JImenez Reyes on 18/04/24.
-//
+import Foundation
 
-import SwiftUI
-
-struct User: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct User: Codable, Identifiable {
+    var id: UUID
+    var username: String
+    var email: String
+    // Puedes agregar más propiedades según sean necesarias para la aplicación.
 }
 
-#Preview {
-    User()
+extension User {
+    // Inicializador de ejemplo para crear un usuario predeterminado.
+    static var example: User {
+        User(id: UUID(), username: "ejemploUsuario", email: "usuario@ejemplo.com")
+    }
 }

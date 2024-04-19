@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A15C0662BD21CE3009D878F /* EcotransitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0652BD21CE3009D878F /* EcotransitApp.swift */; };
 		3A15C0682BD21CE3009D878F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0672BD21CE3009D878F /* ContentView.swift */; };
 		3A15C06A2BD21CEF009D878F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A15C0692BD21CEF009D878F /* Assets.xcassets */; };
 		3A15C06D2BD21CEF009D878F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A15C06C2BD21CEF009D878F /* Preview Assets.xcassets */; };
@@ -33,6 +32,14 @@
 		3A15C0BE2BD21FE9009D878F /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0BD2BD21FE9009D878F /* EventListView.swift */; };
 		3A15C0C12BD2202A009D878F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0C02BD2202A009D878F /* ARView.swift */; };
 		3A15C0C32BD22037009D878F /* VirtualTourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0C22BD22037009D878F /* VirtualTourView.swift */; };
+		3A9EBC192BD3143D006AED41 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC182BD3143D006AED41 /* DashboardViewModel.swift */; };
+		3A9EBC1B2BD3144A006AED41 /* RoutesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC1A2BD3144A006AED41 /* RoutesViewModel.swift */; };
+		3A9EBC1D2BD31458006AED41 /* ReportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC1C2BD31458006AED41 /* ReportsViewModel.swift */; };
+		3A9EBC1F2BD31465006AED41 /* EducationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC1E2BD31465006AED41 /* EducationViewModel.swift */; };
+		3A9EBC222BD31487006AED41 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC212BD31487006AED41 /* Extensions.swift */; };
+		3A9EBC242BD31497006AED41 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC232BD31497006AED41 /* Constants.swift */; };
+		3A9EBC272BD3150F006AED41 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EBC262BD3150F006AED41 /* Localizable.xcstrings */; };
+		3A9EBC292BD315FA006AED41 /* CoreLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC282BD315FA006AED41 /* CoreLocationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +61,6 @@
 
 /* Begin PBXFileReference section */
 		3A15C0622BD21CE3009D878F /* Ecotransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecotransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A15C0652BD21CE3009D878F /* EcotransitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcotransitApp.swift; sourceTree = "<group>"; };
 		3A15C0672BD21CE3009D878F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A15C0692BD21CEF009D878F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A15C06C2BD21CEF009D878F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -82,6 +88,14 @@
 		3A15C0BD2BD21FE9009D878F /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		3A15C0C02BD2202A009D878F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		3A15C0C22BD22037009D878F /* VirtualTourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTourView.swift; sourceTree = "<group>"; };
+		3A9EBC182BD3143D006AED41 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		3A9EBC1A2BD3144A006AED41 /* RoutesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesViewModel.swift; sourceTree = "<group>"; };
+		3A9EBC1C2BD31458006AED41 /* ReportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewModel.swift; sourceTree = "<group>"; };
+		3A9EBC1E2BD31465006AED41 /* EducationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewModel.swift; sourceTree = "<group>"; };
+		3A9EBC212BD31487006AED41 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3A9EBC232BD31497006AED41 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A9EBC262BD3150F006AED41 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		3A9EBC282BD315FA006AED41 /* CoreLocationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,9 @@
 		3A15C0592BD21CE3009D878F = {
 			isa = PBXGroup;
 			children = (
+				3A9EBC252BD314A2006AED41 /* Resources */,
+				3A9EBC202BD31473006AED41 /* Utilities */,
+				3A9EBC152BD31405006AED41 /* ViewModels */,
 				3A15C0A22BD21EC6009D878F /* Views */,
 				3A15C0952BD21E2B009D878F /* Models */,
 				3A15C0642BD21CE3009D878F /* Ecotransit */,
@@ -134,7 +151,6 @@
 		3A15C0642BD21CE3009D878F /* Ecotransit */ = {
 			isa = PBXGroup;
 			children = (
-				3A15C0652BD21CE3009D878F /* EcotransitApp.swift */,
 				3A15C0912BD21D81009D878F /* AppEnvironment.swift */,
 				3A15C08F2BD21D63009D878F /* EcoTransitVisionApp.swift */,
 				3A15C0672BD21CE3009D878F /* ContentView.swift */,
@@ -248,6 +264,35 @@
 			path = AR;
 			sourceTree = "<group>";
 		};
+		3A9EBC152BD31405006AED41 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EBC182BD3143D006AED41 /* DashboardViewModel.swift */,
+				3A9EBC1A2BD3144A006AED41 /* RoutesViewModel.swift */,
+				3A9EBC1C2BD31458006AED41 /* ReportsViewModel.swift */,
+				3A9EBC1E2BD31465006AED41 /* EducationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3A9EBC202BD31473006AED41 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EBC212BD31487006AED41 /* Extensions.swift */,
+				3A9EBC232BD31497006AED41 /* Constants.swift */,
+				3A9EBC282BD315FA006AED41 /* CoreLocationExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3A9EBC252BD314A2006AED41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EBC262BD3150F006AED41 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -354,6 +399,7 @@
 			files = (
 				3A15C06D2BD21CEF009D878F /* Preview Assets.xcassets in Resources */,
 				3A15C06A2BD21CEF009D878F /* Assets.xcassets in Resources */,
+				3A9EBC272BD3150F006AED41 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,10 +430,14 @@
 				3A15C0B92BD21FB6009D878F /* AchievementView.swift in Sources */,
 				3A15C0922BD21D81009D878F /* AppEnvironment.swift in Sources */,
 				3A15C0C12BD2202A009D878F /* ARView.swift in Sources */,
+				3A9EBC192BD3143D006AED41 /* DashboardViewModel.swift in Sources */,
+				3A9EBC242BD31497006AED41 /* Constants.swift in Sources */,
+				3A9EBC1D2BD31458006AED41 /* ReportsViewModel.swift in Sources */,
 				3A15C0A92BD21F13009D878F /* MapView.swift in Sources */,
+				3A9EBC1B2BD3144A006AED41 /* RoutesViewModel.swift in Sources */,
 				3A15C0B72BD21FA6009D878F /* EducationView.swift in Sources */,
+				3A9EBC1F2BD31465006AED41 /* EducationViewModel.swift in Sources */,
 				3A15C0C32BD22037009D878F /* VirtualTourView.swift in Sources */,
-				3A15C0662BD21CE3009D878F /* EcotransitApp.swift in Sources */,
 				3A15C0BE2BD21FE9009D878F /* EventListView.swift in Sources */,
 				3A15C0A12BD21EBD009D878F /* Report.swift in Sources */,
 				3A15C0A52BD21EF8009D878F /* DashboardView.swift in Sources */,
@@ -395,6 +445,8 @@
 				3A15C09B2BD21E76009D878F /* Route.swift in Sources */,
 				3A15C0902BD21D63009D878F /* EcoTransitVisionApp.swift in Sources */,
 				3A15C0B32BD21F6F009D878F /* ReportFormView.swift in Sources */,
+				3A9EBC222BD31487006AED41 /* Extensions.swift in Sources */,
+				3A9EBC292BD315FA006AED41 /* CoreLocationExtensions.swift in Sources */,
 				3A15C0BC2BD21FDC009D878F /* CommunityView.swift in Sources */,
 				3A15C0AE2BD21F42009D878F /* RouteDetailView.swift in Sources */,
 				3A15C09D2BD21E88009D878F /* EnvironmentData.swift in Sources */,
