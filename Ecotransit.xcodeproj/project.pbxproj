@@ -14,6 +14,25 @@
 		3A15C0772BD21CF0009D878F /* EcotransitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0762BD21CF0009D878F /* EcotransitTests.swift */; };
 		3A15C0812BD21CF0009D878F /* EcotransitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0802BD21CF0009D878F /* EcotransitUITests.swift */; };
 		3A15C0832BD21CF0009D878F /* EcotransitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0822BD21CF0009D878F /* EcotransitUITestsLaunchTests.swift */; };
+		3A15C0902BD21D63009D878F /* EcoTransitVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C08F2BD21D63009D878F /* EcoTransitVisionApp.swift */; };
+		3A15C0922BD21D81009D878F /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0912BD21D81009D878F /* AppEnvironment.swift */; };
+		3A15C09B2BD21E76009D878F /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C09A2BD21E76009D878F /* Route.swift */; };
+		3A15C09D2BD21E88009D878F /* EnvironmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C09C2BD21E88009D878F /* EnvironmentData.swift */; };
+		3A15C09F2BD21EAE009D878F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C09E2BD21EAE009D878F /* User.swift */; };
+		3A15C0A12BD21EBD009D878F /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0A02BD21EBD009D878F /* Report.swift */; };
+		3A15C0A52BD21EF8009D878F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0A42BD21EF8009D878F /* DashboardView.swift */; };
+		3A15C0A72BD21F05009D878F /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0A62BD21F05009D878F /* AlertsView.swift */; };
+		3A15C0A92BD21F13009D878F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0A82BD21F13009D878F /* MapView.swift */; };
+		3A15C0AC2BD21F35009D878F /* RoutesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0AB2BD21F35009D878F /* RoutesListView.swift */; };
+		3A15C0AE2BD21F42009D878F /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0AD2BD21F42009D878F /* RouteDetailView.swift */; };
+		3A15C0B12BD21F62009D878F /* ReportsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0B02BD21F62009D878F /* ReportsListView.swift */; };
+		3A15C0B32BD21F6F009D878F /* ReportFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0B22BD21F6F009D878F /* ReportFormView.swift */; };
+		3A15C0B72BD21FA6009D878F /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0B62BD21FA6009D878F /* EducationView.swift */; };
+		3A15C0B92BD21FB6009D878F /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0B82BD21FB6009D878F /* AchievementView.swift */; };
+		3A15C0BC2BD21FDC009D878F /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0BB2BD21FDC009D878F /* CommunityView.swift */; };
+		3A15C0BE2BD21FE9009D878F /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0BD2BD21FE9009D878F /* EventListView.swift */; };
+		3A15C0C12BD2202A009D878F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0C02BD2202A009D878F /* ARView.swift */; };
+		3A15C0C32BD22037009D878F /* VirtualTourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0C22BD22037009D878F /* VirtualTourView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +63,25 @@
 		3A15C07C2BD21CF0009D878F /* EcotransitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcotransitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A15C0802BD21CF0009D878F /* EcotransitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcotransitUITests.swift; sourceTree = "<group>"; };
 		3A15C0822BD21CF0009D878F /* EcotransitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcotransitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A15C08F2BD21D63009D878F /* EcoTransitVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoTransitVisionApp.swift; sourceTree = "<group>"; };
+		3A15C0912BD21D81009D878F /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		3A15C09A2BD21E76009D878F /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		3A15C09C2BD21E88009D878F /* EnvironmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentData.swift; sourceTree = "<group>"; };
+		3A15C09E2BD21EAE009D878F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3A15C0A02BD21EBD009D878F /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		3A15C0A42BD21EF8009D878F /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		3A15C0A62BD21F05009D878F /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		3A15C0A82BD21F13009D878F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3A15C0AB2BD21F35009D878F /* RoutesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesListView.swift; sourceTree = "<group>"; };
+		3A15C0AD2BD21F42009D878F /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
+		3A15C0B02BD21F62009D878F /* ReportsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsListView.swift; sourceTree = "<group>"; };
+		3A15C0B22BD21F6F009D878F /* ReportFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFormView.swift; sourceTree = "<group>"; };
+		3A15C0B62BD21FA6009D878F /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		3A15C0B82BD21FB6009D878F /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		3A15C0BB2BD21FDC009D878F /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		3A15C0BD2BD21FE9009D878F /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		3A15C0C02BD2202A009D878F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		3A15C0C22BD22037009D878F /* VirtualTourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTourView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +112,8 @@
 		3A15C0592BD21CE3009D878F = {
 			isa = PBXGroup;
 			children = (
+				3A15C0A22BD21EC6009D878F /* Views */,
+				3A15C0952BD21E2B009D878F /* Models */,
 				3A15C0642BD21CE3009D878F /* Ecotransit */,
 				3A15C0752BD21CF0009D878F /* EcotransitTests */,
 				3A15C07F2BD21CF0009D878F /* EcotransitUITests */,
@@ -95,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				3A15C0652BD21CE3009D878F /* EcotransitApp.swift */,
+				3A15C0912BD21D81009D878F /* AppEnvironment.swift */,
+				3A15C08F2BD21D63009D878F /* EcoTransitVisionApp.swift */,
 				3A15C0672BD21CE3009D878F /* ContentView.swift */,
 				3A15C0692BD21CEF009D878F /* Assets.xcassets */,
 				3A15C06B2BD21CEF009D878F /* Preview Content */,
@@ -125,6 +167,85 @@
 				3A15C0822BD21CF0009D878F /* EcotransitUITestsLaunchTests.swift */,
 			);
 			path = EcotransitUITests;
+			sourceTree = "<group>";
+		};
+		3A15C0952BD21E2B009D878F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A15C09A2BD21E76009D878F /* Route.swift */,
+				3A15C09C2BD21E88009D878F /* EnvironmentData.swift */,
+				3A15C09E2BD21EAE009D878F /* User.swift */,
+				3A15C0A02BD21EBD009D878F /* Report.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A15C0A22BD21EC6009D878F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A15C0BF2BD21FF2009D878F /* AR */,
+				3A15C0BA2BD21FC1009D878F /* Community */,
+				3A15C0B52BD21F90009D878F /* Education */,
+				3A15C0AF2BD21F50009D878F /* Reports */,
+				3A15C0AA2BD21F1D009D878F /* Routes */,
+				3A15C0A32BD21EE1009D878F /* Dashboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A15C0A32BD21EE1009D878F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				3A15C0A42BD21EF8009D878F /* DashboardView.swift */,
+				3A15C0A62BD21F05009D878F /* AlertsView.swift */,
+				3A15C0A82BD21F13009D878F /* MapView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3A15C0AA2BD21F1D009D878F /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				3A15C0AB2BD21F35009D878F /* RoutesListView.swift */,
+				3A15C0AD2BD21F42009D878F /* RouteDetailView.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		3A15C0AF2BD21F50009D878F /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				3A15C0B02BD21F62009D878F /* ReportsListView.swift */,
+				3A15C0B22BD21F6F009D878F /* ReportFormView.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		3A15C0B52BD21F90009D878F /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				3A15C0B62BD21FA6009D878F /* EducationView.swift */,
+				3A15C0B82BD21FB6009D878F /* AchievementView.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		3A15C0BA2BD21FC1009D878F /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				3A15C0BB2BD21FDC009D878F /* CommunityView.swift */,
+				3A15C0BD2BD21FE9009D878F /* EventListView.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		3A15C0BF2BD21FF2009D878F /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				3A15C0C02BD2202A009D878F /* ARView.swift */,
+				3A15C0C22BD22037009D878F /* VirtualTourView.swift */,
+			);
+			path = AR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +378,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A15C0AC2BD21F35009D878F /* RoutesListView.swift in Sources */,
 				3A15C0682BD21CE3009D878F /* ContentView.swift in Sources */,
+				3A15C0A72BD21F05009D878F /* AlertsView.swift in Sources */,
+				3A15C0B92BD21FB6009D878F /* AchievementView.swift in Sources */,
+				3A15C0922BD21D81009D878F /* AppEnvironment.swift in Sources */,
+				3A15C0C12BD2202A009D878F /* ARView.swift in Sources */,
+				3A15C0A92BD21F13009D878F /* MapView.swift in Sources */,
+				3A15C0B72BD21FA6009D878F /* EducationView.swift in Sources */,
+				3A15C0C32BD22037009D878F /* VirtualTourView.swift in Sources */,
 				3A15C0662BD21CE3009D878F /* EcotransitApp.swift in Sources */,
+				3A15C0BE2BD21FE9009D878F /* EventListView.swift in Sources */,
+				3A15C0A12BD21EBD009D878F /* Report.swift in Sources */,
+				3A15C0A52BD21EF8009D878F /* DashboardView.swift in Sources */,
+				3A15C0B12BD21F62009D878F /* ReportsListView.swift in Sources */,
+				3A15C09B2BD21E76009D878F /* Route.swift in Sources */,
+				3A15C0902BD21D63009D878F /* EcoTransitVisionApp.swift in Sources */,
+				3A15C0B32BD21F6F009D878F /* ReportFormView.swift in Sources */,
+				3A15C0BC2BD21FDC009D878F /* CommunityView.swift in Sources */,
+				3A15C0AE2BD21F42009D878F /* RouteDetailView.swift in Sources */,
+				3A15C09D2BD21E88009D878F /* EnvironmentData.swift in Sources */,
+				3A15C09F2BD21EAE009D878F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

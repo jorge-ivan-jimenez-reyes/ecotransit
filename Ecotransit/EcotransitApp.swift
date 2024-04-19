@@ -1,17 +1,13 @@
-//
-//  EcotransitApp.swift
-//  Ecotransit
-//
-//  Created by Jorge Ivan JImenez Reyes on 18/04/24.
-//
-
 import SwiftUI
 
 @main
-struct EcotransitApp: App {
+struct EcoTransitApp: App {
+    @StateObject private var appEnvironment = AppEnvironment()  // Usando @StateObject para instanciar AppEnvironment
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appEnvironment)  // Proveer el AppEnvironment a la vista
         }
     }
 }
