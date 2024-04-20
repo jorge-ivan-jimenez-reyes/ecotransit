@@ -8,48 +8,46 @@ struct ContentView: View {
             TabView(selection: $selectedTab) {
                 DashboardView()
                     .tabItem {
-                        Image(systemName: "house.fill")
-                        Text("Inicio")
+                        Label("Inicio", systemImage: "house.fill")
                     }
                     .tag(0)
                 
                 RoutesListView()
                     .tabItem {
-                        Image(systemName: "map.fill")
-                        Text("Rutas")
+                        Label("Rutas", systemImage: "map.fill")
                     }
                     .tag(1)
                 
                 ReportsListView()
                     .tabItem {
-                        Image(systemName: "exclamationmark.bubble.fill")
-                        Text("Reportes")
+                        Label("Reportes", systemImage: "exclamationmark.bubble.fill")
                     }
                     .tag(2)
                 
                 EducationView()
                     .tabItem {
-                        Image(systemName: "books.vertical.fill")
-                        Text("Educación")
+                        Label("Educación", systemImage: "books.vertical.fill")
                     }
                     .tag(3)
                 
                 CommunityView()
                     .tabItem {
-                        Image(systemName: "person.3.fill")
-                        Text("Comunidad")
+                        Label("Comunidad", systemImage: "person.3.fill")
                     }
                     .tag(4)
             }
-            .navigationBarTitle(displayTitle(for: selectedTab))
-            .navigationBarItems(trailing: Button(action: {
-                // Acciones para configuración o perfil de usuario
-                print("Perfil/Configuración presionado")
-            }) {
-                Image(systemName: "person.crop.circle")
-                    .resizable()
-                    .frame(width: 24, height: 24)
-            })
+            .navigationTitle(displayTitle(for: selectedTab))
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        print("Perfil/Configuración presionado")
+                    }) {
+                        Image(systemName: "person.crop.circle")
+                            .resizable()
+                            .frame(width: 24, height: 24)
+                    }
+                }
+            }
         }
     }
     

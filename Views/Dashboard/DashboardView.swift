@@ -1,18 +1,24 @@
-//
-//  DashboardView.swift
-//  Ecotransit
-//
-//  Created by Jorge Ivan JImenez Reyes on 18/04/24.
-//
-
 import SwiftUI
 
 struct DashboardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                AlertsView()
+                    .padding()  // Add padding to separate alerts from the map
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top) // Ensures it takes up appropriate space
+
+                MapView()
+                    .frame(maxWidth: .infinity, maxHeight: .infinity) // Map takes the remaining space
+            }
+            .navigationTitle("Dashboard")
+            .navigationBarTitleDisplayMode(.inline) // Makes the navigation title smaller and more integrated
+        }
     }
 }
 
-#Preview {
-    DashboardView()
+struct DashboardView_Previews: PreviewProvider {
+    static var previews: some View {
+        DashboardView()
+    }
 }
