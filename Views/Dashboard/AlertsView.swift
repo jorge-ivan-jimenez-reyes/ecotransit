@@ -8,18 +8,33 @@ struct AlertsView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 10) {
                 ForEach(alerts, id: \.self) { alert in
-                    Text(alert)
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(Color.red)
-                        .cornerRadius(8)
-                        .shadow(radius: 3)
-                        .padding(.horizontal)
+                    AlertCard(alert: alert)
                 }
             }
             .padding(.top)
         }
-        .frame(maxHeight: 200) // Max height constraint to prevent excessive view size
+        .frame(maxHeight: 300) // Adjusted for better viewing experience
+    }
+}
+
+/// Custom view for an alert card
+struct AlertCard: View {
+    var alert: String
+    var body: some View {
+        HStack {
+            Image(systemName: "exclamationmark.triangle.fill")
+                .foregroundColor(.yellow)
+                .padding(.trailing, 5)
+
+            Text(alert)
+                .foregroundColor(.white)
+                .padding()
+                .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.orange]), startPoint: .leading, endPoint: .trailing))
+                .cornerRadius(8)
+                .shadow(radius: 3)
+        }
+        .padding(.horizontal)
+        .animation(.easeInOut, value: alert)
     }
 }
 

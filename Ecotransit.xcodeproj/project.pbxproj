@@ -28,8 +28,6 @@
 		3A15C0B32BD21F6F009D878F /* ReportFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0B22BD21F6F009D878F /* ReportFormView.swift */; };
 		3A15C0B72BD21FA6009D878F /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0B62BD21FA6009D878F /* EducationView.swift */; };
 		3A15C0B92BD21FB6009D878F /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0B82BD21FB6009D878F /* AchievementView.swift */; };
-		3A15C0BC2BD21FDC009D878F /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0BB2BD21FDC009D878F /* CommunityView.swift */; };
-		3A15C0BE2BD21FE9009D878F /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0BD2BD21FE9009D878F /* EventListView.swift */; };
 		3A15C0C12BD2202A009D878F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0C02BD2202A009D878F /* ARView.swift */; };
 		3A15C0C32BD22037009D878F /* VirtualTourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15C0C22BD22037009D878F /* VirtualTourView.swift */; };
 		3A9EBC192BD3143D006AED41 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC182BD3143D006AED41 /* DashboardViewModel.swift */; };
@@ -42,6 +40,10 @@
 		3A9EBC292BD315FA006AED41 /* CoreLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC282BD315FA006AED41 /* CoreLocationExtensions.swift */; };
 		3A9EBC2C2BD33814006AED41 /* LandmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC2B2BD33814006AED41 /* LandmarkView.swift */; };
 		3A9EBC2E2BD3385A006AED41 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC2D2BD3385A006AED41 /* Landmark.swift */; };
+		3A9EBC362BD348B6006AED41 /* CommunityReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC352BD348B6006AED41 /* CommunityReportsView.swift */; };
+		3A9EBC382BD348CF006AED41 /* CommunityHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC372BD348CF006AED41 /* CommunityHubView.swift */; };
+		3A9EBC3C2BD34F7D006AED41 /* AirQualityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC3B2BD34F7D006AED41 /* AirQualityWidget.swift */; };
+		3A9EBC3E2BD34F8C006AED41 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EBC3D2BD34F8C006AED41 /* StatusBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,8 +88,6 @@
 		3A15C0B22BD21F6F009D878F /* ReportFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFormView.swift; sourceTree = "<group>"; };
 		3A15C0B62BD21FA6009D878F /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
 		3A15C0B82BD21FB6009D878F /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
-		3A15C0BB2BD21FDC009D878F /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
-		3A15C0BD2BD21FE9009D878F /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		3A15C0C02BD2202A009D878F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		3A15C0C22BD22037009D878F /* VirtualTourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTourView.swift; sourceTree = "<group>"; };
 		3A9EBC182BD3143D006AED41 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
@@ -100,6 +100,10 @@
 		3A9EBC282BD315FA006AED41 /* CoreLocationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationExtensions.swift; sourceTree = "<group>"; };
 		3A9EBC2B2BD33814006AED41 /* LandmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkView.swift; sourceTree = "<group>"; };
 		3A9EBC2D2BD3385A006AED41 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		3A9EBC352BD348B6006AED41 /* CommunityReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityReportsView.swift; sourceTree = "<group>"; };
+		3A9EBC372BD348CF006AED41 /* CommunityHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityHubView.swift; sourceTree = "<group>"; };
+		3A9EBC3B2BD34F7D006AED41 /* AirQualityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityWidget.swift; sourceTree = "<group>"; };
+		3A9EBC3D2BD34F8C006AED41 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +208,7 @@
 		3A15C0A22BD21EC6009D878F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3A9EBC3A2BD34F5F006AED41 /* Widgets */,
 				3A9EBC2A2BD337F9006AED41 /* Components */,
 				3A15C0BF2BD21FF2009D878F /* AR */,
 				3A15C0BA2BD21FC1009D878F /* Community */,
@@ -255,8 +260,8 @@
 		3A15C0BA2BD21FC1009D878F /* Community */ = {
 			isa = PBXGroup;
 			children = (
-				3A15C0BB2BD21FDC009D878F /* CommunityView.swift */,
-				3A15C0BD2BD21FE9009D878F /* EventListView.swift */,
+				3A9EBC352BD348B6006AED41 /* CommunityReportsView.swift */,
+				3A9EBC372BD348CF006AED41 /* CommunityHubView.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -305,6 +310,15 @@
 				3A9EBC2B2BD33814006AED41 /* LandmarkView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		3A9EBC3A2BD34F5F006AED41 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EBC3B2BD34F7D006AED41 /* AirQualityWidget.swift */,
+				3A9EBC3D2BD34F8C006AED41 /* StatusBarView.swift */,
+			);
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,21 +466,23 @@
 				3A9EBC1B2BD3144A006AED41 /* RoutesViewModel.swift in Sources */,
 				3A15C0B72BD21FA6009D878F /* EducationView.swift in Sources */,
 				3A9EBC1F2BD31465006AED41 /* EducationViewModel.swift in Sources */,
+				3A9EBC3C2BD34F7D006AED41 /* AirQualityWidget.swift in Sources */,
 				3A15C0C32BD22037009D878F /* VirtualTourView.swift in Sources */,
-				3A15C0BE2BD21FE9009D878F /* EventListView.swift in Sources */,
 				3A15C0A12BD21EBD009D878F /* Report.swift in Sources */,
 				3A15C0A52BD21EF8009D878F /* DashboardView.swift in Sources */,
 				3A15C0B12BD21F62009D878F /* ReportsListView.swift in Sources */,
 				3A15C09B2BD21E76009D878F /* Route.swift in Sources */,
 				3A15C0902BD21D63009D878F /* EcoTransitVisionApp.swift in Sources */,
 				3A15C0B32BD21F6F009D878F /* ReportFormView.swift in Sources */,
+				3A9EBC362BD348B6006AED41 /* CommunityReportsView.swift in Sources */,
 				3A9EBC222BD31487006AED41 /* Extensions.swift in Sources */,
 				3A9EBC292BD315FA006AED41 /* CoreLocationExtensions.swift in Sources */,
-				3A15C0BC2BD21FDC009D878F /* CommunityView.swift in Sources */,
 				3A15C0AE2BD21F42009D878F /* RouteDetailView.swift in Sources */,
 				3A15C09D2BD21E88009D878F /* EnvironmentData.swift in Sources */,
 				3A9EBC2C2BD33814006AED41 /* LandmarkView.swift in Sources */,
 				3A15C09F2BD21EAE009D878F /* User.swift in Sources */,
+				3A9EBC382BD348CF006AED41 /* CommunityHubView.swift in Sources */,
+				3A9EBC3E2BD34F8C006AED41 /* StatusBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

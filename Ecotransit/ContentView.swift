@@ -30,7 +30,7 @@ struct ContentView: View {
                     }
                     .tag(3)
                 
-                CommunityView()
+                CommunityReportsView(reports: [])
                     .tabItem {
                         Label("Comunidad", systemImage: "person.3.fill")
                     }
