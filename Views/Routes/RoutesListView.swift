@@ -1,18 +1,26 @@
-//
-//  RoutesListView.swift
-//  Ecotransit
-//
-//  Created by Jorge Ivan JImenez Reyes on 18/04/24.
-//
-
 import SwiftUI
 
 struct RoutesListView: View {
+    @ObservedObject var viewModel: RoutesViewModel
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(viewModel.routes, id: \.id) { route in
+            NavigationLink(destination: RouteDetailView(route: route)) {
+                VStack(alignment: .leading) {
+                    Text(route.name).font(.headline)
+                    Text("Duration: \(route.duration) - Distance: \(route.distance)").font(.subheadline)
+                }
+            }
+        }
+        .navigationTitle("Routes")
+        .onAppear {
+            viewModel.loadRoutes()
+        }
     }
 }
 
-#Preview {
-    RoutesListView()
+struct RoutesListView_Previews: PreviewProvider {
+    static var previews: some View {
+        RoutesListView(viewModel: RoutesViewModel())
+    }
 }

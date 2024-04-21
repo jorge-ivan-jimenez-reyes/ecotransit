@@ -1,18 +1,28 @@
-//
-//  RouteDetailView.swift
-//  Ecotransit
-//
-//  Created by Jorge Ivan JImenez Reyes on 18/04/24.
-//
-
 import SwiftUI
+import CoreLocation  // Import CoreLocation to use CLLocationCoordinate2D
 
 struct RouteDetailView: View {
+    var route: Route
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                Text(route.name).font(.largeTitle)
+                Text("Duration: \(route.duration)")
+                Text("Distance: \(route.distance)")
+                Text("Eco Rating: \(String(repeating: "🌿", count: route.ecoRating))")
+                Divider()
+                Text("Detailed Route Information...")
+                Text("Real-time traffic updates...")
+            }
+            .padding()
+        }
+        .navigationTitle("Route Details")
     }
 }
 
-#Preview {
-    RouteDetailView()
+struct RouteDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        RouteDetailView(route: Route(id: UUID(), name: "Sample Route", duration: "30 mins", distance: "8 miles", ecoRating: 3, startLocation: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194), endLocation: CLLocationCoordinate2D(latitude: 34.0522, longitude: -118.2437), stops: []))
+    }
 }

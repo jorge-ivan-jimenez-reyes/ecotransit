@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedTab = 0
+    @StateObject private var routesViewModel = RoutesViewModel()  // Initialize RoutesViewModel
 
     var body: some View {
         NavigationView {
@@ -12,7 +13,7 @@ struct ContentView: View {
                     }
                     .tag(0)
                 
-                RoutesListView()
+                RoutesListView(viewModel: routesViewModel)  // Pass the viewModel to RoutesListView
                     .tabItem {
                         Label("Rutas", systemImage: "map.fill")
                     }
